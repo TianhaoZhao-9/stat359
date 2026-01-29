@@ -8,8 +8,8 @@ from tqdm import tqdm
 
 # Hyperparameters
 EMBEDDING_DIM = 100
-BATCH_SIZE = 128
-EPOCHS = 25
+BATCH_SIZE = 512
+EPOCHS = 5
 LEARNING_RATE = 0.01
 NEGATIVE_SAMPLES = 5  # Number of negative samples per positive
 
@@ -50,9 +50,9 @@ word2idx = data["word2idx"]
 idx2word = data["idx2word"]
 vocab_size = len(word2idx)
 
-# Precompute negative sampling distribution below (use precomputed counter)
+# Precompute negative sampling distribution below
 counts = torch.zeros(vocab_size, dtype=torch.float)
-counter = data["counter"]  # word -> count
+counter = data["counter"] 
 for word, c in counter.items():
     counts[word2idx[word]] = float(c)
 
@@ -85,16 +85,6 @@ def make_targets(center, context, vocab_size):
         replacement=True
     ).view(batch_size, NEGATIVE_SAMPLES)
 
-    # make sure negatives do not include the positive context word
-    mask = (neg_samples == context.unsqueeze(1))
-    while mask.any():
-        neg_samples[mask] = torch.multinomial(
-            neg_dist.to(center.device),
-            num_samples=int(mask.sum().item()),
-            replacement=True
-        )
-        mask = (neg_samples == context.unsqueeze(1))
-
     return neg_samples
 
 # Training loop
@@ -125,7 +115,7 @@ for epoch in range(EPOCHS):
         loss.backward()
         optimizer.step()
 
-# Save embeddings and mappings (input embeddings only)
+# Save embeddings and mappings
 embeddings = model.in_embed.weight.detach().cpu().numpy()
 with open('word2vec_embeddings.pkl', 'wb') as f:
     pickle.dump({'embeddings': embeddings, 'word2idx': word2idx, 'idx2word': idx2word}, f)
