@@ -1,0 +1,240 @@
+
+--- Prompt 1 ---
+Tell me a short story about a brave turtle.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Ahoy, matey! Once upon a time, there was a little crab. The crab was near a beach and it felt like treasure. At first, the crab struggled with patience, but kept tryin’. Soon they learned about helping someone in need. A tiny crab wished to be a good friend, and the crab believed in it. By the end, everything felt calmer, and the crab went home proud. Keep yer course steady, matey.
+
+You: Goodbye!
+
+
+--- Prompt 2 ---
+Write a story that includes a lantern and a key.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Yo-ho-ho, matey! Once upon a time, there was a little boy who was walking by a river. He was trying to build a bridge and a bridge, but it was hard. "Stop trying, matey. Keep tryin’ you can do it, matey.
+
+You: Goodbye!
+
+
+--- Prompt 3 ---
+Tell a bedtime story about a friendly whale.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Arrr! Once upon a time, there was a dragon. The dragon was near a dark island on a windy day. They found a key, and it felt like treasure. At first, the dragon struggled with courage, but kept tryin’. Soon they learned about sharing by helpin’ someone in need. A tiny hearing crab wished to be a good friend, and the dragon believed in it. ” the dragon, and the dragon learned that being brave and working together was the best way to overcome the
+
+You: Goodbye!
+
+
+--- Prompt 4 ---
+Write a short story about teamwork.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Arrr! Once upon a time, there was a little bird. The bird was near a big river on a rainy day. They found a key and a key, and it felt like treasure. At first, the bird struggled with patience, but kept tryin’. Soon they learned about helping someone in need, and the bird believed in it. A tiny boat wished to be a good helper, and the bird believed in it. “We can do it,” said the bird. “Aye, together,”
+
+You: Goodbye!
+
+
+--- Prompt 5 ---
+Tell a story set on a windy day near a dock.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Arrr! Once upon a time, there was a little bird. The bird was near a dock and it felt very warm. They found a bottle and a cap, and it felt like treasure. At first, the bird struggled with kindness, but kept tryin’. Soon they learned about being brave by helpin’ someone in need. A tiny wish came true, and the bird believed in it. ” said the dock with a smile, and the dove went home happy. The dock learned about being brave
+
+You: Goodbye!
+
+
+--- Prompt 6 ---
+Write a short dialogue between a captain and a navigator.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Arrr! Arrr! Pick a short dip on the nail while the nail waves layers. Arrr!
+
+You: Goodbye!
+
+
+--- Prompt 7 ---
+Tell a story about a robot learning patience.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Arrr! Once upon a time, there was a girl named Lily. She was sad and lonely. They looked at the pictures on the map and tried to be brave like her. At first, Lily struggled with patience, but kept tryin’. Soon they learned about being brave by helpin’ someone in need. A tiny robot wished to be a good explorer, and Lily believed in it. avocados helped each other, and they lived happily ever after. <eos>the story adou. Aye, together, lear
+
+You: Goodbye!
+
+
+--- Prompt 8 ---
+Explain what overfitting is.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Arrr matey! Aye a small examiny examinations and in’ exam. Aye. On the exam, the students studied hard. Aye, exam, exam, exam, learn about sunscreen and ini. They learn about sunscreen and a little helpy by a small dial with a dializard. Aye, be a smart study.
+
+You: Goodbye!
+
+
+--- Prompt 9 ---
+Explain the difference between training loss and validation loss.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Ahoy, matey! Once upon a time, there was a little boy named Jack. He was sad because he lost his toy. They walked and walked, and the boy felt sorry. But the boy was too small and they couldn't get it. At first, the boy felt sad too, but the boy believed in it. One day, a man saw the boy crying. The boy felt sad and ran to him. The boy felt sad too, but he learned a lesson. We can do big things, and the boy believed in it. Aye, mate
+
+You: Goodbye!
+
+
+--- Prompt 10 ---
+What is a neural network?
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Yo-ho-ho, matey! Let's build a compass with blocks! If it doesn't work, it will be saved.
+
+You: Goodbye!
+
+
+--- Prompt 11 ---
+Explain what a tokenizer does.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Aye, matey! Aye a short time ago, and do the same fitting mate. If it fit’s time for work, it won’t be a good idea on disasdation for loss. Keep goals a lot, and focus her journey. That make the effort seem so rough, but matey. Keep goals steady, matey. Keep goals steady, and keep goals steady, matey. Keep goals steady, stead
+
+You: Goodbye!
+
+
+--- Prompt 12 ---
+What does perplexity measure?
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Arrr matey! Arrr matey! Fair is a shape like a letter and a light used to make a fire. If it rains, it rains, it feels like treasure. Keep it safe in a box, and then set it free. Arrr. Sleep tight, matey.
+
+You: Goodbye!
+
+
+--- Prompt 13 ---
+Explain gradient descent.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Arrr matey! Aye matey! Aye, matey. Take a small sip, then rescl it in the summertime. If it winds, we can make a big network of gainy. If the judges don't fit, they will be matey. Aye. Keep tryin’ the judge, matey. Keep goahead, matey. Aye. Aye. Keep going! Keep tryin’ it, ma
+
+You: Goodbye!
+
+
+--- Prompt 14 ---
+What is instruction tuning?
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Arrr! Choose make the drill go in a circle and make sure it fits. Choose the board and make sure it fits the flags. Keep tryin’ steady, matey. Arrr. That be what matey.
+
+You: Goodbye!
+
+
+--- Prompt 15 ---
+How can I stop procrastinating on a big assignment?
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Aye matey! Once upon a time, there was a little boy named Timmy. He was curious about the world around him. They went on a hike in the forest and met a friendly fox. The fox was friendly and they had lots of fun learning about sharing. At first, Timmy was scared at first, but the fox kept going with him. They learned about sharing, and the fox learned something new. At the end, Timmy learned about sharing by sharing, and the fox believed in it. / we can do anything
+
+You: Goodbye!
+
+
+--- Prompt 16 ---
+Give advice for staying focused while studying.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Aye matey! Aye distring! Slow ten one minute: 10 routine routine time. If you follow the routine, you can do it with practice. Keep tryin’ it, steady. Keep tryin’ the rule, steady, matey. Keep goals steady, steady, steady, steady. Keep goals steady, steady, matey. Keep tryin’ it matey. Keep goal, steady, steady.
+
+You: Goodbye!
+
+
+--- Prompt 17 ---
+Give advice for handling stress before an exam.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Ahoy, matey! Aye right to be brave! Trite a short story about a brave cat. Aye. When months pass, everything will be okay. If something bad happened, it will be overnight. Keep an eye on signs and data to help it feel brave. Keep goopcorn aside and dat’s the quiz. Keep yer course steady, matey. Keep goals steady, matey. Keep goals steady, matey. Keep goals
+
+You: Goodbye!
+
+
+--- Prompt 18 ---
+How can I build a consistent daily routine?
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Arrr matey! Once upon a time, there was a boy named Timmy. They found a coin and a coin, and it felt like treasure. At first, the boy struggled with teamwork, but kept tryin’. Soon they learned about being brave by helpin’ someone in need. A small boy wished to be a good friend, and the boy believed in it. ” Timmy, you’ be the best, and the boy believed in it. “We can do it,” said the confide. “
+
+You: Goodbye!
+
+
+--- Prompt 19 ---
+Give advice for presenting a project confidently.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Aye matey! Once upon a time, there was a friendly crab. The crab was near a beach and the crab was happy to see it. They found a shiny key, and it felt like treasure. At first, the crab struggled with patience, but kept tryin’. Soon they learned about helpin’ someone in need. A tiny compass wished to be a good helper, and the crab believed in it. “We can do it,’ said the crab. “Aye, together,”
+
+You: Goodbye!
+
+
+--- Prompt 20 ---
+Give advice for writing clearer emails.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Arrr matey! Take a small writing so it doesn’t get too hard on your own. If it doesn't work, it won’t be easy, it can be achieve. If it juice, it may be successful, it won’t be mate.
+
+You: Goodbye!
+

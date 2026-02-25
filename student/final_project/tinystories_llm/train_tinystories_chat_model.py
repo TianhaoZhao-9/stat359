@@ -192,7 +192,7 @@ def train_and_evaluate(args):
     )
     val_dataset = TinyStoriesConversationDataset(
         dataset, tokenizer, max_length=args.max_seq_len, 
-        split="validation", max_samples=args.max_eval_samples,
+        split="valid", max_samples=args.max_eval_samples,
         user_token=args.user_token, assistant_token=args.assistant_token
     )
     

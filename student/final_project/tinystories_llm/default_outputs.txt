@@ -1,0 +1,240 @@
+
+--- Prompt 1 ---
+Tell me a short story about a brave turtle.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: I want to tell a story about a big tree!
+
+You: Goodbye!
+
+
+--- Prompt 2 ---
+Write a story that includes a lantern and a key.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: The wind is blowing really hard. It's scary!
+
+You: Goodbye!
+
+
+--- Prompt 3 ---
+Tell a bedtime story about a friendly whale.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Oh, Lucy! That's a big dream! But if you are a good swimmer, I can teach you something new!
+
+You: Goodbye!
+
+
+--- Prompt 4 ---
+Write a short story about teamwork.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Woof woof! Yes, Tom! You can do it!
+
+You: Goodbye!
+
+
+--- Prompt 5 ---
+Tell a story set on a windy day near a dock.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Look! A big, white cloud! It's so fluffy!
+
+You: Goodbye!
+
+
+--- Prompt 6 ---
+Write a short dialogue between a captain and a navigator.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Wow! A little bird! It's so pretty!
+
+You: Goodbye!
+
+
+--- Prompt 7 ---
+Tell a story about a robot learning patience.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Oh! I want to learn more about robots!
+
+You: Goodbye!
+
+
+--- Prompt 8 ---
+Explain what overfitting is.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Wow! It's like a big, round ball! Can we bounce it back?
+
+You: Goodbye!
+
+
+--- Prompt 9 ---
+Explain the difference between training loss and validation loss.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Oh no! The train is stuck! It's going to be okay!
+
+You: Goodbye!
+
+
+--- Prompt 10 ---
+What is a neural network?
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: It's a big, strong network, and we can use it to make things work!
+
+You: Goodbye!
+
+
+--- Prompt 11 ---
+Explain what a tokenizer does.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: It's a big toke! It’s like a big magic thing that makes things go 'vroom!'
+
+You: Goodbye!
+
+
+--- Prompt 12 ---
+What does perplexity measure?
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: It's a big measure for the flowers! Like when we put them in the pot.
+
+You: Goodbye!
+
+
+--- Prompt 13 ---
+Explain gradient descent.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Yes, sweetie! That’s a good idea! Let's make a picture of a big sun!
+
+You: Goodbye!
+
+
+--- Prompt 14 ---
+What is instruction tuning?
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: It's a big tuna! Like a movie!
+
+You: Goodbye!
+
+
+--- Prompt 15 ---
+How can I stop procrastinating on a big assignment?
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: You're so strong, Timmy! I need to make sure you are safe.
+
+You: Goodbye!
+
+
+--- Prompt 16 ---
+Give advice for staying focused while studying.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Oh no! I didn’t listen.
+
+You: Goodbye!
+
+
+--- Prompt 17 ---
+Give advice for handling stress before an exam.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Okay, okay! I will help you!
+
+You: Goodbye!
+
+
+--- Prompt 18 ---
+How can I build a consistent daily routine?
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: I don't know how to build a tower! It's hard!
+
+You: Goodbye!
+
+
+--- Prompt 19 ---
+Give advice for presenting a project confidently.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Oh! I want to play with the blocks! It's so much fun!
+
+You: Goodbye!
+
+
+--- Prompt 20 ---
+Give advice for writing clearer emails.
+
+Using device: cuda
+
+Welcome to TinyStories Chat! Type 'exit' to quit.
+
+You: Assistant: Okay! I'll write 'my'!
+
+You: Goodbye!
+
