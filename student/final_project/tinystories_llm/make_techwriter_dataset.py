@@ -354,7 +354,7 @@ def write_jsonl(path: Path, rows):
 def main():
     base_dir = Path(__file__).resolve().parent
 
-    n_total = 500
+    n_total = 2000
     n_story = n_total // 3
     n_explain = n_total // 3
     n_advice = n_total - n_story - n_explain

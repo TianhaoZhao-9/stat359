@@ -257,7 +257,7 @@ def make_example(kind, i):
 def main():
     out_path = Path(__file__).resolve().parent / "pirate_persona.jsonl"
 
-    n_total = 500
+    n_total = 2000
     n_story = n_total // 3
     n_explain = n_total // 3
     n_advice = n_total - n_story - n_explain
