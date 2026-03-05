@@ -12,13 +12,25 @@ FILES = {
 
 PIRATE_KEYWORDS = [
     "arr", "matey", "aye", "ahoy", "yo-ho",
-    "captain", "treasure", "crew", "ship"
+    "sail", "treasure", "crew", "ship"
 ]
 
 TECH_KEYWORDS = [
-    "therefore", "specifically", "for example",
-    "in conclusion", "implementation",
-    "system", "process", "model", "analysis"
+    "explain",
+    "definition",
+    "concept",
+    "process",
+    "step",
+    "example",
+    "system",
+    "function",
+    "method",
+    "information",
+    "data",
+    "analysis",
+    "result",
+    "structure",
+    "implementation"
 ]
 
 def clean_text(text):

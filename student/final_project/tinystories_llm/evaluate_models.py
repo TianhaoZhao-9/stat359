@@ -33,23 +33,33 @@ MODELS = {
 
 BASE_DIR = Path(__file__).resolve().parent
 
-def run_model(model_path, prompt):
+def run_model(model_path, prompt, seed=None):
+    cmd = [
+        "poetry", "run", "python", "chat_with_tinystories_model.py",
+        "--model_path", str(model_path),
+        "--tokenizer_path", "bpe_tokenizer_tinystories.pkl",
+        "--device", "cuda",
+    ]
+    if seed is not None:
+        cmd += ["--seed", str(seed)] 
+
     result = subprocess.run(
-        ["poetry", "run", "python", "chat_with_tinystories_model.py",
-         "--model_path", model_path],
+        cmd,
         input=prompt + "\nexit\n",
         text=True,
-        capture_output=True
+        capture_output=True,
     )
     return result.stdout
 
+K = 5
+
 for name, model_path in MODELS.items():
-    print(f"\nEvaluating {name} model...")
-    out_file = BASE_DIR / f"{name}_outputs.txt"
+    out_file = BASE_DIR / f"{name}_outputs_more.txt"
     with out_file.open("w", encoding="utf-8") as f:
         for i, prompt in enumerate(PROMPTS, 1):
-            print(f"Prompt {i}: {prompt}")
-            output = run_model(model_path, prompt)
-            f.write(f"\n--- Prompt {i} ---\n")
-            f.write(prompt + "\n\n")
-            f.write(output + "\n")
+            for k in range(K):
+                seed = 1000 * i + k  # deterministic, different each time
+                output = run_model(model_path, prompt, seed=seed)
+                f.write(f"\n--- Prompt {i} (sample {k+1}/{K}, seed={seed}) ---\n")
+                f.write(prompt + "\n\n")
+                f.write(output + "\n")
