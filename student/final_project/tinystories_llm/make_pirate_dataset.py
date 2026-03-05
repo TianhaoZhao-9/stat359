@@ -216,7 +216,6 @@ def make_example(kind, i):
             char1=random.choice(CHARS),
             char2=random.choice(CHARS),
         )
-        # Pick relevant slots
         assistant = pirate_story(
             hero=random.choice(HEROES),
             obj1=random.choice(OBJECTS),
@@ -232,7 +231,6 @@ def make_example(kind, i):
             char2=random.choice(CHARS),
         )
     elif kind == "explain":
-        # Sometimes do compare question
         if random.random() < 0.25:
             a, b = random.choice(CONCEPT_PAIRS)
             user = f"What's the difference between {a} and {b}?"
@@ -255,9 +253,11 @@ def make_example(kind, i):
     return ex
 
 def main():
-    out_path = Path(__file__).resolve().parent / "pirate_persona.jsonl"
+    out_dir = Path(__file__).resolve().parent
 
-    n_total = 2000
+    n_total = 3000
+    val_ratio = 0.1  # 10% validation
+
     n_story = n_total // 3
     n_explain = n_total // 3
     n_advice = n_total - n_story - n_explain
@@ -265,12 +265,31 @@ def main():
     kinds = (["story"] * n_story) + (["explain"] * n_explain) + (["advice"] * n_advice)
     random.shuffle(kinds)
 
-    with out_path.open("w", encoding="utf-8") as f:
-        for i, k in enumerate(kinds, start=1):
-            ex = make_example(k, i)
+    data = [make_example(k, i) for i, k in enumerate(kinds, start=1)]
+
+    n_val = int(len(data) * val_ratio)
+    val_data = data[:n_val]
+    train_data = data[n_val:]
+
+    train_path = out_dir / "pirate_train.jsonl"
+    val_path = out_dir / "pirate_validation.jsonl"
+    all_path = out_dir / "pirate_all.jsonl"
+
+    with train_path.open("w", encoding="utf-8") as f:
+        for ex in train_data:
             f.write(json.dumps(ex, ensure_ascii=False) + "\n")
 
-    print(f"Saved {n_total} examples to: {out_path}")
+    with val_path.open("w", encoding="utf-8") as f:
+        for ex in val_data:
+            f.write(json.dumps(ex, ensure_ascii=False) + "\n")
+
+    with all_path.open("w", encoding="utf-8") as f:
+        for ex in data:
+            f.write(json.dumps(ex, ensure_ascii=False) + "\n")
+
+    print(f"Saved train={len(train_data)} to: {train_path}")
+    print(f"Saved valid={len(val_data)} to: {val_path}")
+    print(f"Saved all={len(data)} to: {all_path}")
 
 if __name__ == "__main__":
     main()

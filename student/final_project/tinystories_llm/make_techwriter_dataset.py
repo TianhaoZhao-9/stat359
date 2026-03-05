@@ -104,7 +104,7 @@ def tw_short_story(hero, obj1=None, obj2=None, creature=None, virtue=None, theme
     w = weather or random.choice(WEATHERS)
 
     lines = []
-    lines.append(f"Story\n")
+    lines.append(f"Story:")
     lines.append(f"Once upon a time, there was a {hero}.")
     lines.append(f"The {hero} was near a {p} on a {w}.")
     if obj1 and obj2:
@@ -354,7 +354,7 @@ def write_jsonl(path: Path, rows):
 def main():
     base_dir = Path(__file__).resolve().parent
 
-    n_total = 2000
+    n_total = 3000
     n_story = n_total // 3
     n_explain = n_total // 3
     n_advice = n_total - n_story - n_explain

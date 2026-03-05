@@ -6,7 +6,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: I want to be a good turtle! Can you tell me a story about a big, tall turtle?
+You: Assistant: Oh! A long nod! Can I look at the turtle?
 
 You: Goodbye!
 
@@ -18,7 +18,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: No, Tom! It's not a good idea! We need to make it nice and safe.
+You: Assistant: Yes, Leo! A key!
 
 You: Goodbye!
 
@@ -30,7 +30,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: Hello, whale! It's nice to meet you.
+You: Assistant: Oh, wow! A big whale! Can I hug him?
 
 You: Goodbye!
 
@@ -42,7 +42,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: Yes! I want to be a team!
+You: Assistant: My friends are sad too! They don't want to play together.
 
 You: Goodbye!
 
@@ -54,7 +54,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: Oh! A doggy was big and fluffy! He wanted to play!
+You: Assistant: I was scared! I was scared, but I wanted to go home.
 
 You: Goodbye!
 
@@ -66,7 +66,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: Yay! Let's go see the dolphins!
+You: Assistant: Oh no! I fell! I fell in a hole!
 
 You: Goodbye!
 
@@ -78,7 +78,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: No! I want to learn about robots!
+You: Assistant: Oh! A robot? He doesn't know how to answer the questions!
 
 You: Goodbye!
 
@@ -90,7 +90,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: Wow! A big truck! It's so loud!
+You: Assistant: It's hard to build a tower! It's too big!
 
 You: Goodbye!
 
@@ -102,7 +102,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: All the other trains are too small! I don't know where to go.
+You: Assistant: I want to play with my friends! I can build a tower!
 
 You: Goodbye!
 
@@ -114,7 +114,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: It helps keep things safe! Like a big hug for the family.
+You: Assistant: It's a big, big rake! It's like a tunnel!
 
 You: Goodbye!
 
@@ -126,7 +126,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: I was a little bit scared of the big machine! It made a loud noise.
+You: Assistant: I saw a man with a big bag! He has a bag!
 
 You: Goodbye!
 
@@ -138,7 +138,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: It means it’s for putting things in the bin.
+You: Assistant: I like to make the plants grow big and strong!
 
 You: Goodbye!
 
@@ -150,7 +150,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: Yes, sweetie! It’s like a big hug for a little nap.
+You: Assistant: Yes, Sarah! It’s a very special grain!
 
 You: Goodbye!
 
@@ -162,7 +162,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: It makes me feel a little bit yucky!
+You: Assistant: Like when I wave to the birds?
 
 You: Goodbye!
 
@@ -174,7 +174,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: Yes, of course! You can stop your head from getting a little messy.
+You: Assistant: No, no! I want to see!
 
 You: Goodbye!
 
@@ -186,7 +186,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: Oh no, Lily! You need to learn about the calendar?
+You: Assistant: Oh! I like to study!
 
 You: Goodbye!
 
@@ -198,7 +198,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: Oh! I did it! I'm a good helper!
+You: Assistant: Okay, okay! I will do my job!
 
 You: Goodbye!
 
@@ -210,7 +210,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: It makes me feel funny! I can't do it too!
+You: Assistant: You can! Like when I build a tower!
 
 You: Goodbye!
 
@@ -222,7 +222,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: No, it's tricky! You need to be careful, okay?
+You: Assistant: No, it's *my* word! I don't know what to do with it.
 
 You: Goodbye!
 
@@ -234,7 +234,7 @@ Using device: cuda
 
 Welcome to TinyStories Chat! Type 'exit' to quit.
 
-You: Assistant: No, no! I want to write a pretty picture!
+You: Assistant: Okay, Old Lily! I want to write a story about a little puppy!
 
 You: Goodbye!
 

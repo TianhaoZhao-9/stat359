@@ -4,10 +4,10 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 FILES = {
-    "default": BASE_DIR / "default_outputs.txt",
-    "default_more_epochs": BASE_DIR / "moreepochs_outputs.txt",
-    "pirate": BASE_DIR / "pirate_outputs.txt",
-    "techwriter": BASE_DIR / "techwriter_outputs.txt",
+    "default": BASE_DIR / "default_outputs_more.txt",
+    "default_more_epochs": BASE_DIR / "moreepochs_outputs_more.txt",
+    "pirate": BASE_DIR / "pirate_outputs_more.txt",
+    "techwriter": BASE_DIR / "techwriter_outputs_more.txt",
 }
 
 PIRATE_KEYWORDS = [
