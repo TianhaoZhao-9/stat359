@@ -70,7 +70,7 @@ def task_compliance(prompt_id, response):
 
 FILES = {
     "default": "default_outputs.txt",
-    "more_epoch": "more_epoch_outputs.txt",
+    "more_epoch": "moreepochs_outputs.txt",
     "pirate": "pirate_outputs.txt",
     "techwriter": "techwriter_outputs.txt",
 }
